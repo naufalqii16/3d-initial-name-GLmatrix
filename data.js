@@ -89,26 +89,35 @@ var vertices = [
 ]
 
 var colors = [
-    // Front face of the shape (HURUF N and L in 3D)
-    // Red to blue gradient for the front face
     1.0, 0.0, 0.0, 1.0, // Red (for vertices 0-3)
     1.0, 0.0, 0.0, 1.0, // Red (for vertices 4-6)
     1.0, 0.0, 0.0, 1.0, // Red (for vertices 7-9)
     0.0, 0.0, 1.0, 1.0, // Blue (for vertices 10-13)
     0.0, 0.0, 1.0, 1.0, // Blue (for vertices 14-16)
 
-    // Front face of the 3D shape (HURUF N and L in 3D)
-    // Red to blue gradient for the front face
-    // For vertices 17 to 32 (Same colors as above for the front)
     1.0, 0.0, 0.0, 1.0,
     1.0, 0.0, 0.0, 1.0,
     1.0, 0.0, 0.0, 1.0,
     0.0, 0.0, 1.0, 1.0,
     0.0, 0.0, 1.0, 1.0,
 
-    // Side faces (sides of the 3D shape)
-    // You can use different colors for the sides or create a gradient
-    // Here's a simple gradient from green to yellow for the sides
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
+
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
+
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
+
+    0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
+    1.0, 1.0, 0.0, 1.0,
     0.0, 1.0, 0.0, 1.0, // Green (for side vertices)
     1.0, 1.0, 0.0, 1.0,
  ];
@@ -187,6 +196,9 @@ var indices = [
 
     //L tegak kiri samping kanan
     12,12+17,14+17, 12,14+17,14,
+
+    //L tegak bawah
+    10,10+17,13+17, 10,13+17,13,
 
     //L horizontal atas
     14,14+17,15+17, 14,15+17,15,
