@@ -183,7 +183,7 @@ var indices = [
     7,7+17,8+17, 7,8+17,8,
 
     //N tegak kanan samping kanan
-    5,5+17,9+17, 5,9+17,9,
+    8,8+17,9+17, 8,9+17,9,
 
     //N tegak kanan bawah
     4,4+17,5+17, 4,5+17,5,
